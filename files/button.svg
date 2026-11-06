@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="72" role="img" aria-label="Powershell Setup Instructions">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f6feb"/>
+      <stop offset="100%" stop-color="#1158c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="72" rx="10" fill="url(#g)"/>
+  <rect x="1" y="1" width="518" height="70" rx="9" fill="none" stroke="#388bfd" stroke-opacity="0.45"/>
+  <text x="260" y="44" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" text-anchor="middle">Powershell Setup Instructions</text>
+</svg>
