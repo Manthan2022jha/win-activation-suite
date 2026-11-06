@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0d1117"/>
+  
+  <!-- Window-pane bow (handle) of the key - offset upper left quadrant -->
+  <g transform="translate(128,128) rotate(-35) translate(-128,-128)">
+    
+    <!-- Outer bow frame: a four-pane window grid -->
+    <path d="M 78 52 L 138 52 L 138 112 L 78 112 Z" 
+          fill="none" stroke="#e6edf3" stroke-width="2.5" stroke-linejoin="miter"/>
+    
+    <!-- Window crossbars (mullions) forming four panes -->
+    <line x1="108" y1="52" x2="108" y2="112" stroke="#e6edf3" stroke-width="2"/>
+    <line x1="78" y1="82" x2="138" y2="82" stroke="#e6edf3" stroke-width="2"/>
+    
+    <!-- Glass panes with faint green tint -->
+    <rect x="80" y="54" width="26" height="26" fill="#9be9a8" opacity="0.15"/>
+    <rect x="110" y="54" width="26" height="26" fill="#9be9a8" opacity="0.08"/>
+    <rect x="80" y="84" width="26" height="26" fill="#9be9a8" opacity="0.08"/>
+    <rect x="110" y="84" width="26" height="26" fill="#2ea043" opacity="0.25"/>
+    
+    <!-- Key shaft (stem) descending from bow bottom-center -->
+    <path d="M 106 112 L 106 196 L 112 196 L 112 112" 
+          fill="#9be9a8" opacity="0.9"/>
+    <path d="M 104 112 L 104 198 L 114 198 L 114 112" 
+          fill="none" stroke="#e6edf3" stroke-width="1.5"/>
+    
+    <!-- Fine engraving lines along the shaft -->
+    <line x1="108" y1="118" x2="108" y2="192" stroke="#2ea043" stroke-width="0.8" opacity="0.7"/>
+    
+    <!-- Bit (ward cuts) at bottom - shaped like a small window-lock notch -->
+    <path d="M 114 170 L 132 170 L 132 178 L 122 178 L 122 186 L 132 186 L 132 194 L 114 194" 
+          fill="none" stroke="#e6edf3" stroke-width="2" stroke-linejoin="miter"/>
+    
+    <!-- Green accent on bit teeth -->
+    <rect x="114" y="170" width="5" height="8" fill="#2ea043"/>
+    <rect x="114" y="186" width="5" height="8" fill="#2ea043"/>
+    
+    <!-- Key collar ring where bow meets shaft -->
+    <rect x="100" y="108" width="18" height="6" fill="#e6edf3"/>
+    <rect x="100" y="108" width="18" height="2" fill="#9be9a8"/>
+    
+    <!-- Subtle subversive accent: one pane corner prying loose -->
+    <path d="M 136 54 L 140 54 L 140 58" fill="none" stroke="#2ea043" stroke-width="1.5"/>
+    <path d="M 136 110 L 140 110 L 140 106" fill="none" stroke="#2ea043" stroke-width="1.5"/>
+    
+    <!-- Tiny spark/notch detail near top-left pane -->
+    <circle cx="82" cy="56" r="1.5" fill="#9be9a8"/>
+    
+  </g>
+</svg>
